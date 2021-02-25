@@ -9,10 +9,10 @@ class Dog
   end
 
   def bark=(bark = "woof!")
-    @bark=bark
+    @bark = bark
   end
 
   def bark
-    "#{@bark}".strip
+    @bark
   end
 end
