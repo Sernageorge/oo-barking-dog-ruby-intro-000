@@ -8,11 +8,11 @@ class Dog
     @name
   end
 
-  def bark=(bark="woof!")
+  def bark=(bark)
     @bark=bark
   end
 
   def bark
-    @bark
+    "#{@bark}"
   end
 end
